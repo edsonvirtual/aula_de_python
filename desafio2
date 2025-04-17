@@ -1,0 +1,49 @@
+lista = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+print("=================================")
+print("A lista é: ", lista)
+
+intervalo = list(range(1, 10))
+print("=================================")
+print ("Intervalo de 1 a 9 é: ", intervalo)
+
+intervalo = list(range(8, 14))
+print("=================================")
+print ("Intervalo de 8 a 13 é: ", intervalo)
+print("=================================")
+
+for lista in lista:
+    if lista % 2 == 0: 
+        print ("numeros pares: ", lista)
+
+print("=================================")
+ 
+i = 0 
+while i <= lista:
+    if i % 2 != 0:
+        print ("numeros impares: ", i)
+        i += 1
+    else:
+        i += 1
+     
+print("=================================")
+
+lista = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+lista_invertida = []
+
+for i in range(len(lista)-1, -1, -1):
+    lista_invertida.append(lista[i])
+
+print("=================================")
+print("A lista invertida é: ", lista_invertida)
+  
+lista = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+lista_intervalo = []
+
+intervalo = list(range(10, 16))
+intervalo2 = list(range(3, 10))
+for x,y in enumerate(intervalo):
+    lista_intervalo.append(y+k)
+
+print("a soma das listas é: ", intervalo + intervalo2)
+
+
